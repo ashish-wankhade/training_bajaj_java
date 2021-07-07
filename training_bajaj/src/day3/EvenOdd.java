@@ -4,11 +4,14 @@ public class EvenOdd
 {  
 	public static void main (String args[])  
 	{  
-//		Student ashish = new Student();
-		Student ashish = new Student("ASW", 22, true);
+		Student.Display();
+		System.out.println(Student.CLLG_NAME);
 		
-//		ashish.name = "Ashish";
-//		ashish.age = 123;
+		Student ashish = new Student("ASW", 22, true);
+		System.out.println("Name_student" + ashish.name);
+		
+		System.out.println(ashish.isEligible);
+		
 		//creating Scanner class object     
 		Scanner scan = new Scanner(System.in);  
 		System.out.print("Enter the number: ");  
