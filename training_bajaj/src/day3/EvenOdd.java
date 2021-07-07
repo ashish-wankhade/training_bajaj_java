@@ -7,8 +7,8 @@ public class EvenOdd
 //		Student ashish = new Student();
 		Student ashish = new Student("ASW", 22, true);
 		
-		ashish.name = "Ashish";
-		ashish.age = 123;
+//		ashish.name = "Ashish";
+//		ashish.age = 123;
 		//creating Scanner class object     
 		Scanner scan = new Scanner(System.in);  
 		System.out.print("Enter the number: ");  
