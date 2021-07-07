@@ -4,7 +4,8 @@ public class EvenOdd
 {  
 	public static void main (String args[])  
 	{  
-		Student ashish = new Student();
+//		Student ashish = new Student();
+		Student ashish = new Student("ASW", 22, true);
 		
 		ashish.name = "Ashish";
 		ashish.age = 123;
