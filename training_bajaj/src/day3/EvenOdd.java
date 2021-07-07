@@ -4,6 +4,11 @@ public class EvenOdd
 {  
 	public static void main (String args[])  
 	{  
+		Customer customer = new Customer();
+		customer.walkIn();
+		customer.search();
+		customer.purchase();
+		
 		Student.Display();
 		System.out.println(Student.CLLG_NAME);
 		

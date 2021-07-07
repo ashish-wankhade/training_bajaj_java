@@ -31,7 +31,7 @@ public class Student {
 		}
 		
 		public static void Display() {
-			System.out.print("Displaying Students");
+			System.out.println("Displaying Students");
 		}
 
 }
